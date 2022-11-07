@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GTBFComponent"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of GTBFComponent."
   spec.description  = "A short description of GTBFComponent description."
 
@@ -21,14 +21,14 @@ Pod::Spec.new do |spec|
 
   # spec.libraries = "iconv", "xml2"
 
-  s.dependency 'Charts','~> 3.6.0'
-  s.dependency 'Alamofire'
-  s.dependency 'MJRefresh','~> 3.7.5'
-  s.dependency 'SYProgressView'
-  s.dependency 'SwiftTheme'
-  s.dependency 'SnapKit'
-  s.dependency 'SDWebImage','~> 5.12.5'
-  s.dependency 'Starscream'
-  s.dependency 'lottie-ios','~> 2.5.3'
+  spec.dependency 'Charts','~> 3.6.0'
+  spec.dependency 'Alamofire'
+  spec.dependency 'MJRefresh','~> 3.7.5'
+  spec.dependency 'SYProgressView'
+  spec.dependency 'SwiftTheme'
+  spec.dependency 'SnapKit'
+  spec.dependency 'SDWebImage','~> 5.12.5'
+  spec.dependency 'Starscream'
+  spec.dependency 'lottie-ios','~> 2.5.3'
 
 end
