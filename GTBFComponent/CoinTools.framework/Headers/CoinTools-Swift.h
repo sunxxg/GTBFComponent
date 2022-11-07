@@ -299,7 +299,7 @@ SWIFT_CLASS("_TtC9CoinTools18GTChartPMarkerView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM_NAMED(NSInteger, GTChartPMarkerViewCalendarPermission, "AleartType", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GTChartPMarkerViewCalendarPermission, "AleartType", closed) {
   GTChartPMarkerViewCalendarPermissionDuoKong = 10,
   GTChartPMarkerViewCalendarPermissionBaoCang = 11,
   GTChartPMarkerViewCalendarPermissionKongHuang = 12,
@@ -708,7 +708,7 @@ SWIFT_CLASS("_TtC9CoinTools20GTV2ChartPMarkerView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM_NAMED(NSInteger, GTV2ChartPMarkerViewCalendarPermission, "AleartType", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GTV2ChartPMarkerViewCalendarPermission, "AleartType", closed) {
   GTV2ChartPMarkerViewCalendarPermissionDuoKong = 10,
   GTV2ChartPMarkerViewCalendarPermissionBaoCang = 11,
   GTV2ChartPMarkerViewCalendarPermissionKongHuang = 12,
@@ -722,7 +722,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, GTV2ChartPMarkerViewCalendarPermission, "Ale
 };
 
 
-typedef SWIFT_ENUM(int32_t, HTNetworkStatus, open) {
+typedef SWIFT_ENUM(int32_t, HTNetworkStatus, closed) {
   HTNetworkStatusPublicHttpUnknow = -1,
   HTNetworkStatusHttpNoReachable = 0,
   HTNetworkStatusHttpWwan = 1,
@@ -762,7 +762,7 @@ SWIFT_CLASS("_TtC9CoinTools16LFRequestManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, MySwiftThemes, open) {
+typedef SWIFT_ENUM(NSInteger, MySwiftThemes, closed) {
   MySwiftThemesLight = 0,
   MySwiftThemesNight = 1,
 };
@@ -955,7 +955,7 @@ SWIFT_CLASS("_TtC9CoinTools17YCChartMarkerView")
 @end
 
 /// 为了兼容OC调用SnapKit
-typedef SWIFT_ENUM(NSInteger, YCLayoutAttribute, open) {
+typedef SWIFT_ENUM(NSInteger, YCLayoutAttribute, closed) {
   YCLayoutAttributeLeft = 1,
   YCLayoutAttributeRight = 2,
   YCLayoutAttributeTop = 3,
