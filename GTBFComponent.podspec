@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GTBFComponent"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "A short description of GTBFComponent."
   spec.description  = "A short description of GTBFComponent description."
 
@@ -13,8 +13,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/sunxxg/GTBFComponent.git", :tag => "#{spec.version}" }
 
 
-  s.source_files = 'GTBFComponent/GTBFComponent.framework/Headers/*.{h}'
-  s.vendored_frameworks = 'GTBFComponent/GTBFComponent.framework'
+  spec.source_files = 'GTBFComponent/GTBFComponent.framework/Headers/*.{h}'
+  spec.vendored_frameworks = 'GTBFComponent/GTBFComponent.framework'
 
 
   spec.frameworks = "UIKit", "Foundation"
