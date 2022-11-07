@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GTBFComponent"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "A short description of GTBFComponent."
   spec.description  = "A short description of GTBFComponent description."
 
@@ -10,11 +10,12 @@ Pod::Spec.new do |spec|
   spec.author             = { "sunhw" => "coder_sunhw@163.com" }
   spec.platform     = :ios, "10.0"
   spec.ios.deployment_target = "10.0"
+  spec.swift_versions = ['5.0']
   spec.source       = { :git => "https://github.com/sunxxg/GTBFComponent.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files = 'GTBFComponent/GTBFComponent.framework/Headers/*.{h}'
-  spec.vendored_frameworks = 'GTBFComponent/GTBFComponent.framework'
+  spec.source_files = 'GTBFComponent/CoinTools.framework/Headers/*.{h}'
+  spec.vendored_frameworks = 'GTBFComponent/CoinTools.framework'
 
 
   spec.frameworks = "UIKit", "Foundation"
