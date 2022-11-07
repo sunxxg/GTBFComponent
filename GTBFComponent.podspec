@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GTBFComponent"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.6"
   spec.summary      = "A short description of GTBFComponent."
   spec.description  = "A short description of GTBFComponent description."
 

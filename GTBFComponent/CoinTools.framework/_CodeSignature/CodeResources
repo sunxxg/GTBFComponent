@@ -2248,7 +2248,7 @@
 		</data>
 		<key>Headers/CoinTools-Swift.h</key>
 		<data>
-		jyvPrdPmI3+tU/KrqpzVPX48GnU=
+		YlwuASKNmyUVj4gy6bVdjWR6ESM=
 		</data>
 		<key>Headers/CoinTools.h</key>
 		<data>
@@ -2434,9 +2434,13 @@
 		<data>
 		5wx7XnkssTml5iKFJWy7TSwaz7c=
 		</data>
+		<key>Modules/CoinTools.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		w80fvKTRTz1fd9MQbJwfixfaLhc=
+		</data>
 		<key>Modules/CoinTools.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MsGzEdbp0O9WYeQ0tVMkvRVF8vs=
+		Fx7ed7r4H/h7bXDbcXcJnj8mtoc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -6635,7 +6639,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+QCgUpunZsi3BWrnrXkQQqAVcQF9DnTyeINO/v+5WTw=
+			vf2AWbPBCZNrpp22lRG6uBRVZnMesMI4mHcaDcXw1U4=
 			</data>
 		</dict>
 		<key>Headers/CoinTools.h</key>
@@ -6953,11 +6957,18 @@
 			kfHrnDoJp39iyPwauUBtzUdqy+ldGTxzAr7ipKHgEAM=
 			</data>
 		</dict>
+		<key>Modules/CoinTools.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yXQ5imhWBLvYtW4OyGuefP6/K2PIoMSYB7JfPswkSSA=
+			</data>
+		</dict>
 		<key>Modules/CoinTools.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Or7nNL4rLzVsOkPxjv/PBGKt+EeBG0bSWYcEhQm6CUA=
+			estyA6K3l0zO7IHbhXcu+80JvheoIRZTGXTXh+m5zP8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
